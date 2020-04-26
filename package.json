@@ -1,0 +1,28 @@
+{
+  "name": "easytheme",
+  "author": "Boris Povolotsky <boristofu@gmail.com>",
+  "version": "0.0.1",
+  "description": "Theming App for easier theme files and color palettes",
+  "main": "main.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "NODE_ENV=production next start -p 8080"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.2",
+    "autoprefixer": "^9.7.6",
+    "next": "^9.3.5",
+    "postcss-import": "^12.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tailwindcss": "^1.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.2",
+    "@types/react": "^16.9.34",
+    "typescript": "^3.8.3"
+  },
+  "license": "ISC"
+}
